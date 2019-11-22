@@ -1,0 +1,238 @@
+[
+    {
+        "cinema": {
+            "id": "PVR01",
+            "name": "PVR",
+            "city": "Bangalore",
+            "street": "Whitefields"
+        },
+        "screens": [
+            {
+                "id": "1",
+                "slots": [
+                    {
+                        "id": "1",
+                        "movie": {
+                            "id": "1",
+                            "name": "Avengers"
+                        }
+                    }
+                ],
+                "seats": [
+                    {
+                        "id": "A1",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A2",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A3",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A4",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A5",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "B1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B5",
+                        "category": "Regular"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "slots": [
+                    {
+                        "id": "1",
+                        "movie": {
+                            "id": "2",
+                            "name": "StarTrek"
+                        }
+                    }
+                ],
+                "seats": [
+                    {
+                        "id": "A1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A5",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B5",
+                        "category": "Regular"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "cinema": {
+            "id": "INOX01",
+            "name": "INOX K R Puram",
+            "city": "Bangalore",
+            "street": "Koramangla"
+        },
+        "screens": [
+            {
+                "id": "1",
+                "slots": [
+                    {
+                        "id": "1",
+                        "movie": {
+                            "id": "1",
+                            "name": "God Father"
+                        }
+                    }
+                ],
+                "seats": [
+                    {
+                        "id": "A1",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A2",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A3",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A4",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "A5",
+                        "category": "Premium"
+                    },
+                    {
+                        "id": "B1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B5",
+                        "category": "Regular"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "slots": [
+                    {
+                        "id": "1",
+                        "movie": {
+                            "id": "2",
+                            "name": "Rambo"
+                        }
+                    }
+                ],
+                "seats": [
+                    {
+                        "id": "A1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "A5",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B1",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B2",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B3",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B4",
+                        "category": "Regular"
+                    },
+                    {
+                        "id": "B5",
+                        "category": "Regular"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+server:
+  port: 7075
+
+swagger:
+  host: "localhost:8089"
+
+spring:
+  application:
+    name: "Movie Ticket Provider"
+  flyway:
+    baseline-on-migrate: false
+# Postgres Configuration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/moviedb
+    password: postgres
+    username: postgres
+  jpa:
+    database: postgresql
+    show-sql: true
+    hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    temp.use_jdbc_metadata_defaults: false
+    jdbc.lob.non_contextual_creation: true
+    hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate.id.new_generator_mappings: true
+    hibernate.cache.use_second_level_cache: false
+    hibernate.cache.use_query_cache: false
+    hibernate.generate_statistics: true
+    hibernate.hbm2ddl.auto: create-drop
+    hibernate.connection.provider_disables_autocommit: true
+
+# Log Configuration
+logging:
+  level:
+    org:
+      springframework: ERROR
+      hibernate: ERROR
+  path: /logs/
+  file: myLogs.log

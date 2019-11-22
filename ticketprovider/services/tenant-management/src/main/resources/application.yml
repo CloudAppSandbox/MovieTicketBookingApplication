@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: "Tenant Manager"
+
+server:
+  port: 7076
